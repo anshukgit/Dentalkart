@@ -1,0 +1,116 @@
+{
+  "images" : [
+    {
+      "filename" : "rsz_whatsapp_image_2020-10-23_at_31300_pm.png",
+      "idiom" : "iphone",
+      "scale" : "2x",
+      "size" : "20x20"
+    },
+    {
+      "filename" : "rsz_1whatsapp_image_2020-10-23_at_31300_pm.png",
+      "idiom" : "iphone",
+      "scale" : "3x",
+      "size" : "20x20"
+    },
+    {
+      "filename" : "rsz_2whatsapp_image_2020-10-23_at_31300_pm.png",
+      "idiom" : "iphone",
+      "scale" : "2x",
+      "size" : "29x29"
+    },
+    {
+      "filename" : "rsz_3whatsapp_image_2020-10-23_at_31300_pm.png",
+      "idiom" : "iphone",
+      "scale" : "3x",
+      "size" : "29x29"
+    },
+    {
+      "filename" : "rsz_4whatsapp_image_2020-10-23_at_31300_pm.png",
+      "idiom" : "iphone",
+      "scale" : "2x",
+      "size" : "40x40"
+    },
+    {
+      "filename" : "rsz_5whatsapp_image_2020-10-23_at_31300_pm.png",
+      "idiom" : "iphone",
+      "scale" : "3x",
+      "size" : "40x40"
+    },
+    {
+      "filename" : "rsz_5whatsapp_image_2020-10-23_at_31300_pm-1.png",
+      "idiom" : "iphone",
+      "scale" : "2x",
+      "size" : "60x60"
+    },
+    {
+      "filename" : "rsz_6whatsapp_image_2020-10-23_at_31300_pm.png",
+      "idiom" : "iphone",
+      "scale" : "3x",
+      "size" : "60x60"
+    },
+    {
+      "filename" : "rsz_whatsapp_image_2020-10-23_at_31300_pm (1).png",
+      "idiom" : "ipad",
+      "scale" : "1x",
+      "size" : "20x20"
+    },
+    {
+      "filename" : "rsz_whatsapp_image_2020-10-23_at_31300_pm-1.png",
+      "idiom" : "ipad",
+      "scale" : "2x",
+      "size" : "20x20"
+    },
+    {
+      "filename" : "rsz_1whatsapp_image_2020-10-23_at_31300_pm (1).png",
+      "idiom" : "ipad",
+      "scale" : "1x",
+      "size" : "29x29"
+    },
+    {
+      "filename" : "rsz_2whatsapp_image_2020-10-23_at_31300_pm (1).png",
+      "idiom" : "ipad",
+      "scale" : "2x",
+      "size" : "29x29"
+    },
+    {
+      "filename" : "rsz_whatsapp_image_2020-10-23_at_31300_pm-2.png",
+      "idiom" : "ipad",
+      "scale" : "1x",
+      "size" : "40x40"
+    },
+    {
+      "filename" : "rsz_4whatsapp_image_2020-10-23_at_31300_pm-1.png",
+      "idiom" : "ipad",
+      "scale" : "2x",
+      "size" : "40x40"
+    },
+    {
+      "filename" : "rsz_3whatsapp_image_2020-10-23_at_31300_pm (1).png",
+      "idiom" : "ipad",
+      "scale" : "1x",
+      "size" : "76x76"
+    },
+    {
+      "filename" : "rsz_4whatsapp_image_2020-10-23_at_31300_pm (1).png",
+      "idiom" : "ipad",
+      "scale" : "2x",
+      "size" : "76x76"
+    },
+    {
+      "filename" : "rsz_5whatsapp_image_2020-10-23_at_31300_pm (1).png",
+      "idiom" : "ipad",
+      "scale" : "2x",
+      "size" : "83.5x83.5"
+    },
+    {
+      "filename" : "WhatsApp Image 2020-10-23 at 3.13.00 PM.jpeg",
+      "idiom" : "ios-marketing",
+      "scale" : "1x",
+      "size" : "1024x1024"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

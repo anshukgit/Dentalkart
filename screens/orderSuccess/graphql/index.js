@@ -1,0 +1,1 @@
+export { default as THANKYOU_PAGE } from './thankyou.gpl'

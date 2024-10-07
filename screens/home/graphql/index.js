@@ -1,0 +1,10 @@
+export {default as GET_BRANDS_FRAGMENT} from './get_brands_fragment.gql';
+export {default as GET_FLASH_SALE_FRAGMENT} from './get_flash_sale_fragment.gql';
+export {default as GET_SLIDER_FRAGMENT} from './get_slider_fragment.gql';
+export {default as GET_CAROUSEL_PRODUCTS_QUERY} from './get_carousel_products.gql';
+export {default as GET_CAROUSEL_AND_BANNERS_QUERY} from './get_carousel.gql';
+export {default as GET_SLIDER_BRAND_FLASH_SALE_QUERY} from './get_slider_brand_flash_sale.gql';
+export {default as GET_NOTICES} from './notice.gql';
+export {default as GET_FEATURED_CATEGORY} from './get_featured_category.gql';
+export {default as HOME_PAGE_QUERY} from './home_page_query.gpl';
+export {default as GET_ALL_PROMOTION_PRODUCT} from './promotion_product.gql';
