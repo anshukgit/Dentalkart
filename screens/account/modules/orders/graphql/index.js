@@ -1,0 +1,10 @@
+export {default as GET_ORDER_DETAILS_QUERYGET_NEW_ORDER_DETAILS_VERSION_THREE_QUERY} from './get_orders_details_new.gql';
+export {default as GET_ORDERS_QUERY, GET_ORDERS_NEW} from './get_orders.gql';
+export {default as BUY_AGAIN} from './buy_again.gpl';
+export {default as TRACK_SHIPMENT_QUERY} from './track_shipment.gql';
+export {default as CANCEL_ORDER} from './cancel_order.gql';
+export {default as TRACK_BY_TRACK_NUMBER_QUERY} from './track_shipment_details.gql';
+export {default as GET_INVOICE_LINK} from './get_invoice_link.gql';
+export {default as GET_CANCEL_REASONS} from './get_cancel_reason.gql';
+export {default as GET_CANCELABLE_ORDER} from './getCancelableOrder.gql';
+export {default as PREVIOUS_RETURN_LIST} from './previous_return_list.gql';

@@ -1,0 +1,9 @@
+export {default as RETURN_REASONS} from './queries/returnReasons.gpl';
+export {default as NON_RETURNABLE} from './queries/nonReturnable.gpl';
+export {default as RETURN_ACTIONS} from './queries/returnActions.gpl';
+export {default as RETURN_ITEMS} from './queries/returnItems.gpl';
+export {default as ORDERED_ITEMS} from './queries/orderedItems.gpl';
+export {default as GET_PRESIGNED_URL} from './queries/getPreSignedUrl.gpl';
+export {default as GET_NEW_ORDER_DETAILS} from './queries/get_orders_details_new.gql';
+export {default as LIST_RETURN_ITEMS} from './queries/listReturnItems.gql';
+export {default as RETURN_VALIDATE} from './queries/returnValidate.gql';

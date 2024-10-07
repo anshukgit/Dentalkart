@@ -1,0 +1,242 @@
+import {StyleSheet, Platform} from 'react-native';
+import {DeviceWidth, DeviceHeight} from '../../config/environment';
+import {
+  widthPercentageToDP as wp,
+  heightPercentageToDP as hp,
+} from 'react-native-responsive-screen';
+import colors from '../../config/colors';
+
+export const FilterStyles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
+  },
+  content: {
+    marginTop: hp('7%'),
+    flex: 1,
+  },
+  body: {
+    flex: 1,
+    backgroundColor: '#FFFFFF',
+  },
+  filterContainer: {
+    backgroundColor: '#FFFFFF',
+    width: wp('100%'),
+  },
+  header: {
+    backgroundColor: '#fff',
+    justifyContent: 'space-between',
+    flexDirection: 'row',
+    height: hp('7%'),
+  },
+  footer: {
+    height: hp('8%'),
+    backgroundColor: '#FFFFFF',
+    justifyContent: 'center',
+    alignItems: 'center',
+    flexDirection: 'row',
+    shadowColor: '#000',
+    shadowOffset: {width: 0, height: 1},
+    shadowOpacity: 0.8,
+    shadowRadius: 2,
+    elevation: 5,
+  },
+  filterHeading: {
+    alignSelf: 'flex-start',
+  },
+  filterHeadingText: {
+    color: 'black',
+    marginTop: hp('0.8%'),
+    padding: hp('1.5%'),
+    marginLeft: hp('0.8%'),
+    fontSize: hp('2.1%'),
+    fontWeight: 'bold',
+  },
+  filterClear: {
+    paddingRight: wp('5%'),
+  },
+  AccordionContainer: {
+    alignSelf: 'center',
+    width: wp('94%'),
+    borderTopWidth: wp('0.3%'),
+    borderColor: '#f0f0f0',
+  },
+  fill_star: {
+    fontSize: wp('4%'),
+    lineHeight: Platform.OS === 'ios' ? hp('1.6%') : hp('2%'),
+    color: '#ffc700',
+  },
+  empty_star: {
+    fontSize: wp('4%'),
+    lineHeight: Platform.OS === 'ios' ? hp('1.6%') : hp('2%'),
+    color: '#c4c4c4',
+  },
+  checkboxContainer: {
+    flexDirection: 'row',
+  },
+  title: {
+    fontSize: 15,
+    fontWeight: '600',
+    color: colors.black,
+  },
+  rating: {
+    marginLeft: hp('0.7%'),
+    lineHeight: hp('1.8%'),
+  },
+  ratingText: {
+    color: 'rgb(32, 33, 36)',
+    fontSize: wp('3.3%'),
+    lineHeight: Platform.OS === 'ios' ? hp('1.6%') : hp('2%'),
+  },
+  checkBoxContainer: {
+    flexDirection: 'row',
+    alignItems: 'flex-start',
+    left: 0,
+    marginBottom: hp('1.5%'),
+  },
+  checkBox: {
+    height: hp('1.5%'),
+    width: hp('1.5%'),
+    paddingRight: Platform.OS === 'ios' ? wp('2%') : wp('6%'),
+    marginLeft: Platform.OS === 'ios' ? hp('0.5%') : hp('-1%'),
+  },
+  checkBoxText: {
+    color: 'rgb(32, 33, 36)',
+    marginLeft: hp('1%'),
+    fontSize: wp('3.5%'),
+    lineHeight: Platform.OS === 'ios' ? hp('1.6%') : hp('2%'),
+  },
+  filtersHeading: {
+    fontSize: wp('4.5%'),
+    justifyContent: 'flex-start',
+    alignItems: 'flex-start',
+    alignSelf: 'flex-start',
+    marginLeft: hp('1%'),
+    marginTop: hp('1%'),
+  },
+  applyButton: {
+    marginTop: hp('0.8%'),
+    marginBottom: hp('1%'),
+    borderRadius: hp('.5%'),
+    backgroundColor: '#fd9c44',
+    width: hp('20%'),
+    height: hp('4.5%'),
+    justifyContent: 'center',
+    textAlign: 'center',
+    marginLeft: hp('0.8%'),
+  },
+  cancleButton: {
+    marginTop: hp('0.8%'),
+    marginBottom: hp('1%'),
+    borderRadius: hp('.5%'),
+    backgroundColor: colors.LightGray,
+    width: hp('20%'),
+    height: hp('4.5%'),
+    justifyContent: 'center',
+    textAlign: 'center',
+    marginRight: hp('0.8%'),
+  },
+  clearAllFilter: {
+    marginTop: hp('1.5%'),
+    marginBottom: hp('1%'),
+    borderRadius: hp('6%'),
+    backgroundColor: '#464f58',
+    width: wp('22%'),
+    height: hp('4%'),
+    justifyContent: 'center',
+    textAlign: 'center',
+  },
+  // filterButton: {
+  //   borderRadius: hp('.5%'),
+  //   backgroundColor: '#25303c',
+  //   width: wp('32%'),
+  //   height: hp('4%'),
+  //   flexDirection: 'row',
+  //   justifyContent: 'center',
+  //   alignItems: 'center',
+  //   marginTop: wp('1%'),
+  // },
+  filterButton: {
+    width: DeviceWidth / 2,
+    height: 50,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderRightWidth: 0.5,
+    borderRightColor: '#5e5e5e',
+    backgroundColor: '#ffffff',
+    elevation: 1,
+    shadowColor: '#bfbfbf',
+    shadowOffset: {
+      height: 0,
+      width: 0,
+    },
+    shadowOpacity: 0.5,
+    shadowRadius: 2,
+  },
+
+  filterButtonWrapper: {
+    width: DeviceWidth / 2,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  filterText: {
+    fontSize: 15,
+    color: '#212121',
+  },
+
+  searchBoxWrapper: {
+    flexDirection: 'row',
+    backgroundColor: '#fff',
+    elevation: 2,
+    shadowColor: '#bfbfbf',
+    shadowOffset: {
+      height: 0,
+      width: 0,
+    },
+    shadowOpacity: 0.5,
+    shadowRadius: 2,
+  },
+  backIconWrapper: {
+    width: 50,
+    backgroundColor: '#fff',
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: Platform.OS === 'ios' ? 45 : 45,
+  },
+  title: {
+    fontSize: 15,
+    fontWeight: '600',
+    color: colors.black,
+  },
+  rangeText: {
+    fontSize: wp('3.5%'),
+    fontWeight: '700',
+    color: 'rgb(32, 33, 36)',
+  },
+  row: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    height: hp('7%'),
+    alignItems: 'center',
+    backgroundColor: colors.width,
+  },
+  rangeSliderStyle: {
+    paddingTop: wp('1%'),
+    paddingBottom: wp('1%'),
+  },
+  sliderValues: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    paddingTop: wp('1%'),
+    paddingBottom: wp('5%'),
+  },
+  superText: {
+    color: 'black',
+    fontSize: 10,
+    zIndex: 100,
+    top: 0,
+    right: 0,
+    position: 'absolute',
+    textAlignVertical: 'top',
+  },
+});

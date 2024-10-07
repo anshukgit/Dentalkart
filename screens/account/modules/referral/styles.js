@@ -1,0 +1,178 @@
+import {StyleSheet} from 'react-native';
+
+export const styles = StyleSheet.create({
+  mainContainer: {
+    flex: 1,
+    backgroundColor: '#f0f0f0',
+  },
+  container: {
+    width: '90%',
+    alignSelf: 'center',
+    marginTop: 10,
+  },
+  refers: {
+    flexDirection: 'row',
+    width: '100%',
+
+    // alignItems: 'center',
+    backgroundColor: 'white',
+    padding: 20,
+    // marginBottom: 10,
+    borderRadius: 5,
+    justifyContent: 'space-around',
+  },
+  userReferView: {
+    // padding: 20,
+    // flexDirection: 'row',
+    borderWidth: 0.5,
+    borderRadius: 10,
+    width: '30%',
+    alignItems: 'center',
+    justifyContent: 'space-around',
+  },
+  countes: {
+    fontSize: 30,
+    color: 'black',
+    fontWeight: '700',
+  },
+  refersImg: {
+    marginTop: 10,
+    width: 25,
+    height: 25,
+  },
+  refTitles: {
+    fontWeight: '700',
+    // fontSize: 16,
+    marginBottom: 15,
+    textAlign: 'center',
+  },
+  boxCont: {
+    backgroundColor: 'white',
+    width: '32%',
+    alignItems: 'center',
+    borderRadius: 6,
+    borderWidth: 0.8,
+    height: 115,
+    borderColor: '#DDDDEE',
+    paddingHorizontal: 3,
+  },
+  rewardAndEarn: {
+    backgroundColor: 'white',
+    padding: 10,
+    borderRadius: 5,
+    marginBottom: 20,
+  },
+  rewardAndEarnText: {
+    fontSize: 23,
+    fontWeight: '600',
+    color: '#F3943D',
+    alignSelf: 'center',
+    marginBottom: 10,
+  },
+  rewardAndEarnSubTitleView: {
+    alignSelf: 'center',
+    width: '100%',
+  },
+  rewardAndEarnSubTitleText: {
+    color: '#8D8D8D',
+  },
+  subTitles: {
+    padding: 5,
+    width: '100%',
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  headarrow: {
+    width: 14,
+    height: 14,
+    marginRight: 7,
+  },
+  referCodeView: {
+    alignSelf: 'center',
+  },
+  referCodeText: {
+    fontSize: 14,
+    fontWeight: '700',
+    color: 'black',
+    marginTop: 10,
+  },
+  referCode: {
+    alignSelf: 'center',
+    fontSize: 27,
+    fontWeight: '600',
+    color: '#1976D2',
+    marginTop: 10,
+  },
+  referLinkView: {
+    width: '100%',
+    height: 40,
+    borderWidth: 2,
+    borderRadius: 10,
+    borderColor: '#ef5a24',
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: 10,
+    // backgroundColor: 'red',
+  },
+  copyImg: {
+    width: 20,
+    height: 20,
+  },
+  referLink: {
+    color: 'black',
+    fontSize: 15,
+  },
+  orLine: {
+    width: '50%',
+    marginTop: 20,
+    borderWidth: 0.5,
+    borderColor: '#DADADA',
+  },
+  orLineView: {
+    // marginTop: 10,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  shareView: {
+    marginTop: 14,
+    alignSelf: 'center',
+    color: 'black',
+    fontSize: 14,
+    fontWeight: '600',
+  },
+  socialIconsView: {
+    marginTop: 10,
+    flexDirection: 'row',
+    // backgroundColor: 'red',
+    width: '90%',
+    justifyContent: 'space-around',
+    alignSelf: 'center',
+  },
+  termsAndCondition: {
+    marginTop: 20,
+    padding: 5,
+    // backgroundColor: 'red',
+  },
+  tncText: {
+    fontSize: 17,
+    color: 'black',
+    fontWeight: '700',
+  },
+  termsAndConditionTexts: {
+    marginTop: 10,
+    flexDirection: 'row',
+    width: '90%',
+    alignSelf: 'center',
+  },
+  dots: {
+    marginRight: 5,
+  },
+  socialIcons: {
+    // color: '#F8931D',
+    color: '#F3943D',
+    // width: 20,
+    // height: 20,
+  },
+});

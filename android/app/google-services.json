@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "285108782909",
+    "firebase_url": "https://dentalkart-app-test.firebaseio.com",
+    "project_id": "dentalkart-app-test",
+    "storage_bucket": "dentalkart-app-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285108782909:android:7f1bc9cf93ee9152",
+        "android_client_info": {
+          "package_name": "com.vasadental.dentalkart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "285108782909-bo692prmsnnicphgsf3in7kg8b1020p9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vasadental.dentalkart",
+            "certificate_hash": "68a52051db3f2093f8f47458d35d4fedbe988c43"
+          }
+        },
+        {
+          "client_id": "285108782909-ouh6alnd146f1het75vn5lvim26tuvpm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDG8-9F9FyLVdzmYK06A9V-4kTVOiuUSvY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "285108782909-ouh6alnd146f1het75vn5lvim26tuvpm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "285108782909-r7901u6kjfch1ahbanjvdv7icqjg54q5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.dentalkart.vasadental",
+                "app_store_id": "1382207992"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

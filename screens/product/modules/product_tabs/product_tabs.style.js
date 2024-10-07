@@ -1,0 +1,178 @@
+import {StyleSheet} from 'react-native';
+import {SecondaryColor, DeviceWidth} from '@config/environment';
+import {
+  widthPercentageToDP as wp,
+  heightPercentageToDP as hp,
+} from 'react-native-responsive-screen';
+export default styles = StyleSheet.create({
+  productTabsWrapper: {
+    backgroundColor: '#f3f3f3',
+    paddingTop: 5,
+  },
+  tabTagWrapper: {
+    borderColor: '#ddd',
+    borderWidth: 0.5,
+    backgroundColor: '#fff',
+    padding: 10,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+  tabTagWrapperr: {
+    borderColor: '#ddd',
+    borderWidth: 0.5,
+    backgroundColor: '#FFF',
+    padding: 10,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    // position: 'absolute',
+    // bottom: 10,
+    // right: 0,
+    // left: 0,
+  },
+  tabTag: {
+    fontSize: 13,
+    color: SecondaryColor,
+  },
+  webViewWrapper: {
+    flex: 1,
+  },
+  tabText: {
+    padding: 10,
+    fontSize: 12,
+    color: '#212121',
+    backgroundColor: '#efefef',
+    height: 'auto',
+    width: DeviceWidth,
+  },
+  faqTabContainer: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingVertical: '4%',
+    borderTopWidth: 0.5,
+    borderBottomWidth: 0.5,
+  },
+  noDataText: {
+    fontWeight: '600',
+    color: 'black',
+  },
+  postQuesButton: {
+    borderRadius: hp('.5%'),
+    backgroundColor: '#f3943d',
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: hp('2%'),
+  },
+  postQuesButtonText: {
+    color: 'white',
+    fontSize: 14,
+    paddingVertical: hp('1%'),
+    paddingHorizontal: hp('1%'),
+  },
+  modalMainContainer: {
+    flex: 1,
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  modalMainContainerr: {
+    flex: 1,
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
+    justifyContent: 'flex-end',
+    alignItems: 'center',
+  },
+  modalContainer: {
+    borderRadius: hp('1%'),
+    width: '90%',
+    paddingBottom: hp(2),
+    // height: '%',
+    backgroundColor: 'white',
+    alignItems: 'center',
+  },
+  modalContainerr: {
+    borderRadius: hp('1%'),
+    width: '100%',
+    paddingBottom: hp(2),
+    backgroundColor: 'white',
+    alignItems: 'center',
+    // height: '80%',
+    maxHeight: '80%',
+  },
+  subModalContainer: {
+    width: '90%',
+    // backgroundColor: 'lightblue',
+  },
+  subModalContainerr: {
+    width: '90%',
+    // backgroundColor: 'lightblue',
+    marginBottom: hp(5),
+  },
+  postQuesHead: {
+    padding: wp('2%'),
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    borderBottomWidth: 0.5,
+    paddingBottom: '5%',
+  },
+  postQuesHeadd: {
+    padding: wp('2%'),
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingBottom: '3%',
+  },
+  postQuesHeadText: {
+    fontWeight: '600',
+    color: 'black',
+    fontSize: wp('5%'),
+  },
+  postQuesTextInput: {
+    borderWidth: 0.5,
+    borderRadius: hp('1%'),
+    padding: wp('3%'),
+    height: hp('18%'),
+    marginTop: hp(2),
+  },
+  faqTabMainContainer: {
+    flex: 1,
+    padding: 14,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  faqContainer: {
+    width: '100%',
+  },
+  postSearchView: {
+    flexDirection: 'row',
+    paddingHorizontal: 10,
+    borderWidth: 0.5,
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    borderRadius: hp('1%'),
+    backgroundColor: 'white',
+  },
+  postSearch: {
+    width: '90%',
+  },
+  viewAllQues: {
+    // marginVertical: hp(2),
+    borderTopWidth: 0.5,
+    // borderBottomWidth: 0.5,
+    paddingVertical: hp(2),
+    paddingLeft: wp(1),
+  },
+  viewAllText: {
+    color: 'blue',
+  },
+  quesErrorText: {
+    color: 'red',
+    paddingTop: hp(1),
+  },
+  NoQuesAvailText: {
+    padding: wp(2),
+    color: 'black',
+  },
+});

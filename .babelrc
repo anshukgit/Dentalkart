@@ -1,0 +1,15 @@
+{
+  "plugins": [
+    ["module-resolver", {
+      "root": ["./"],
+      "alias": {
+        "@screens": "./screens",
+        "@helpers": "./helpers",
+        "@config": "./config",
+        "@components": "./components",
+        "@apolloClient": "./apollo_client",
+        "@dentalkartContext": "./app_context"
+      }
+    }]
+  ]
+}
