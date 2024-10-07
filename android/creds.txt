@@ -1,0 +1,5 @@
+Keystore credentials
+  Keystore password: 17944c62-0a46-11e8-8964-0a580a78261f
+  Key alias:         QHNob3J5YXZhaXNoL2RlbnRhbGthcnQtYXBw
+  Key password:      17944c6f-0a46-11e8-8964-0a580a78261f
+  SMS Hash code:     W/OqrYedUQF

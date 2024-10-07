@@ -1,0 +1,13 @@
+current directory: /Users/naveenagarwal/Projects/react-native/dentalkart_old/vendor/bundle/ruby/2.7.0/gems/json-2.7.1/ext/json
+/Users/naveenagarwal/.rvm/rubies/ruby-2.7.4/bin/ruby -I /Users/naveenagarwal/.rvm/rubies/ruby-2.7.4/lib/ruby/site_ruby/2.7.0 -r ./siteconf20240118-408-qyvqh2.rb extconf.rb
+creating Makefile
+
+current directory: /Users/naveenagarwal/Projects/react-native/dentalkart_old/vendor/bundle/ruby/2.7.0/gems/json-2.7.1/ext/json
+make DESTDIR\= clean
+
+current directory: /Users/naveenagarwal/Projects/react-native/dentalkart_old/vendor/bundle/ruby/2.7.0/gems/json-2.7.1/ext/json
+make DESTDIR\=
+make: Nothing to be done for `all'.
+
+current directory: /Users/naveenagarwal/Projects/react-native/dentalkart_old/vendor/bundle/ruby/2.7.0/gems/json-2.7.1/ext/json
+make DESTDIR\= install

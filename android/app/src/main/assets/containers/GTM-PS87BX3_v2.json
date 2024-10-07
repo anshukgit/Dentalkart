@@ -1,0 +1,57 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2019-11-25 08:02:14",
+    "containerVersion": {
+        "path": "accounts/457009800/containers/13396927/versions/1",
+        "accountId": "457009800",
+        "containerId": "13396927",
+        "containerVersionId": "1",
+        "name": "First Publish",
+        "container": {
+            "path": "accounts/457009800/containers/13396927",
+            "accountId": "457009800",
+            "containerId": "13396927",
+            "name": "Dentalkart Android",
+            "publicId": "GTM-PS87BX3",
+            "usageContext": [
+                "ANDROID_SDK_5"
+            ],
+            "fingerprint": "1573322932194",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/457009800/containers/13396927/workspaces?apiLink=container"
+        },
+        "builtInVariable": [
+            {
+                "accountId": "457009800",
+                "containerId": "13396927",
+                "type": "EVENT_NAME",
+                "name": "Event Name"
+            },
+            {
+                "accountId": "457009800",
+                "containerId": "13396927",
+                "type": "APP_ID",
+                "name": "App ID"
+            },
+            {
+                "accountId": "457009800",
+                "containerId": "13396927",
+                "type": "APP_NAME",
+                "name": "App Name"
+            },
+            {
+                "accountId": "457009800",
+                "containerId": "13396927",
+                "type": "APP_VERSION_CODE",
+                "name": "App Version Code"
+            },
+            {
+                "accountId": "457009800",
+                "containerId": "13396927",
+                "type": "APP_VERSION_NAME",
+                "name": "App Version Name"
+            }
+        ],
+        "fingerprint": "1573322946298",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/457009800/containers/13396927/versions/1?apiLink=version"
+    }
+}

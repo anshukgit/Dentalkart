@@ -1,0 +1,15 @@
+export {default as CHECK_NEW_EMAIL_QUERY} from './queries/check_new_email.gql';
+// export { GET_USER_INFO_QUERY, GET_CART_INFO_QUERY } from './queries/get_user_info.gql';
+export {default as CREATE_NEW_USER} from './mutations/create_new_user.gql';
+export {default as LOGIN_QUERY} from './mutations/login.gql';
+export {default as LOGOUT_QUERY} from './mutations/logout.gql';
+export {default as RESEND_SIGNUP_OTP_QUERY} from './mutations/resend_signup_otp.gql';
+export {default as VERIFY_OTP} from './mutations/check_otp.gql';
+export {default as APP_REVIEW_ACTION_MUTATION} from './mutations/app_review_action.gql';
+export {default as FORGOT_PASSWORD_QUERY} from './mutations/forgot_password.gql';
+export {default as RESET_PASSWORD} from './mutations/reset_password.gql';
+export {default as SOCIAL_LOGIN} from './mutations/social_login.gql';
+export {default as CUSTOMER_INFO_QUERY} from './queries/info.gql';
+export {default as GET_BRANDS_QUERY} from './queries/get_brands_code.gql';
+export {default as GET_ADDRESS_VALIDATION_RULES} from './queries/get_address_validation_rules.gql';
+export {default as SEND_OTP} from './mutations/sendOtp.gql';
